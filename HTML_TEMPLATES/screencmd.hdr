@@ -1,0 +1,12 @@
+#!/bin/bash
+
+. /ncf/tools/current/code/bin/env_setup.sh
+#source /usr/local/bin/new-modules.sh
+#module load ncf
+#module load perl-modules
+#module load beiwe/5.0-ncf
+#module load boldqc2
+#module load miniconda2
+#module load pylib/6.4.2-ncf
+
+source $HOME/.bash_profile

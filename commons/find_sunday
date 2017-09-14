@@ -1,0 +1,30 @@
+#!/bin/sh
+
+sDOW=$1
+
+
+# sun1 is which date the first sunday happened on
+if [ ${sDOW} = 0 ]
+then
+	sun1=1
+elif [ ${sDOW} = 1 ]
+then
+	sun1=7
+elif [ ${sDOW} = 2 ]
+then
+	sun1=6
+elif [ ${sDOW} = 3 ]
+then
+	sun1=5
+elif [ ${sDOW} = 4 ]
+then
+	sun1=4
+elif [ ${sDOW} = 5 ]
+then
+	sun1=3
+elif [ ${sDOW} = 6 ]
+then
+	sun1=2
+fi
+
+echo $sun1
