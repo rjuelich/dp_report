@@ -1,1 +1,17 @@
-test
+***This repository was created solely to provide potential employers with a sample of bash code and the corresponding output (Example_Output.pdf). The code herein was never meant to run outside of the particular cluster environment in which it was developed***
+
+That said, the following is a brief description of the contents:
+
+
+wrappers: Wrappers to compile/submit all data TYPE modules for given data SOURCE, for processing on high-performance cluster.
+
+MODULES: Core processing modules for all available datatypes.
+
+commons: Scripts to support visualization and final packaging of all datatypes.
+
+ICONS: Icons used in final PDF output.
+
+HTML_TEMPLATES: HTML templates used during packaging of final PDF output.
+
+
+
